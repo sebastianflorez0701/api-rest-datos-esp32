@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-7z62u-b!%_*vbm&kv#t#%qf*wq^3(15*f-q(dk*k&z=o3$y#gp
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["127.0.0.1","54.159.18.228"]
+ALLOWED_HOSTS = ["*"]
 
 
 
@@ -61,6 +61,7 @@ MIDDLEWARE = [
 
 ]
 
+CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'datos_esp.urls'
 
